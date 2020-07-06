@@ -1,0 +1,16 @@
+{
+  "name": "desafios",
+  "version": "1.0",
+  "description": "Resolução de desafios for SattoTelecom",
+  "main": "index.js",
+  "author": "JV Pinheiro",
+  "license": "MIT",
+  "private": null,
+  "dependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/preset-env": "^7.10.3"
+  },
+  "scripts":{
+  	"desafios": "babel ./scriptDoJV.js -o ./outro.js -w"
+  }
+}

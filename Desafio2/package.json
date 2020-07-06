@@ -1,0 +1,23 @@
+{
+  "name": "Desafios2",
+  "version": "1.0",
+  "description": "Solução Desafios WebpackServer",
+  "main": "scriptDoJV.js",
+  "author": "JVPinheiro",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/cli": "^7.10.3",
+    "@babel/core": "^7.10.3",
+    "@babel/plugin-proposal-object-rest-spread": "^7.10.3",
+    "@babel/preset-env": "^7.10.3",
+    "babel-loader": "8.0.0-beta.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "desafios2": "babel ./scriptDoJV.js -o ./final.js -w",
+    "wp": "webpack --mode=development -w",
+    "WPServer":"webpack-dev-server --mode=development"
+  }
+}
